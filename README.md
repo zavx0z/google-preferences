@@ -38,6 +38,6 @@ python PreferencesHandler.py --config=config.yml --user-data-dir=/home/$USER/.co
 
 This library is licensed under the MIT License
 
-Author
+## Author
 The library was created by zavx0z and is maintained by chat GPT, a language model created by OpenAI.
 The library is available on [Github](https://github.com/zavx0z/google-preferences.git)

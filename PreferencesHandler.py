@@ -57,28 +57,28 @@ def load_preferences_from_file(file_path):
         return {}
 
 
-def serialize_preferences(preferences):
+def serialize_config(confs):
     """
-    Serializes a nested dictionary of preferences into a flat dictionary with string values.
+    Serializes values a nested dictionary.
 
     Args:
-        preferences (dict): The dictionary to be serialized.
+        confs (dict): The dictionary to be serialized.
 
     Returns:
         dict: The serialized dictionary.
     """
     serialized_preferences = {}
-    for key, value in preferences.items():
+    for key, value in confs.items():
         if type(value) == dict:
-            serialized_preferences[key] = serialize_preferences(value)
+            serialized_preferences[key] = serialize_config(value)
         else:
             serialized_preferences[key] = json.dumps(value)
     return serialized_preferences
 
 
-def load_preferences(file_path):
+def load_config(file_path):
     """
-    Load the preferences from a YAML file.
+    Load the config from a YAML file.
 
     Args:
         file_path (str or Path): The file path to load the preferences from.
@@ -89,7 +89,7 @@ def load_preferences(file_path):
     file_path = Path(file_path)
     with open(file_path, 'r') as file:
         preferences = yaml.safe_load(file)
-    return serialize_preferences(preferences)
+    return serialize_config(preferences)
 
 
 def update_preferences(preferences_file, config_file):
@@ -102,7 +102,7 @@ def update_preferences(preferences_file, config_file):
     """
 
     preferences = load_preferences_from_file(preferences_file)
-    default_preferences = load_preferences(config_file)
+    default_preferences = load_config(config_file)
     preferences = update_nested_dict(preferences, default_preferences)
     write_preferences(preferences_file, preferences)
 
