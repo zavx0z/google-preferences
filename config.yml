@@ -1,0 +1,7 @@
+# default_preferences.yml
+devtools:
+  preferences:
+    currentDockState: "undocked"
+  synced_preferences_sync_disabled:
+    sidebarPosition: "bottom"
+    uiTheme: "light" # dark|light
