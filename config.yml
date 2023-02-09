@@ -1,15 +1,26 @@
 # default_preferences.yml
 browser:
-  has_seen_welcome_page: true
+  app_window_placement:
+    DevToolsApp:
+      always_on_top: false
+      bottom: 1049
+      left: 1399
+      maximized: false
+      right: 1919
+      top: 20
+      work_area_bottom: 1054
+      work_area_left: 0
+      work_area_right: 1920
+      work_area_top: 0
   window_placement:
-    bottom: 1080
-    left: 788
+    bottom: 1054
+    left: 0
     maximized: false
-    right: 1733
-    top: 10
-    work_area_bottom: 1080
-    work_area_left: 778
-    work_area_right: 2698
+    right: 1400
+    top: 0
+    work_area_bottom: 1054
+    work_area_left: 0
+    work_area_right: 1920
     work_area_top: 0
 devtools:
   preferences:
