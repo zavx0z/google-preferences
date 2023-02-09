@@ -4,6 +4,37 @@ from pathlib import Path
 import yaml
 
 
+def preferences_read(file_path):
+    """ Read preferences from a file.
+
+    Args:
+        file_path (str or pathlib.Path): The file path of the preferences file.
+
+    Returns:
+        dict: A dictionary containing the preferences, or an empty dictionary if the file was not found.
+    """
+    file_path = Path(file_path)
+    try:
+        with open(file_path, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return {}
+
+
+def preferences_write(preferences, file_path, indent=False):
+    """Write preferences to file
+
+    Args:
+        preferences (dict): The dictionary of preferences to write.
+        file_path (str or Path): The path to the file to write.
+        indent (bool, optional): Space formatted. Defaults to False..
+    """
+    kwargs = {}
+    if indent:
+        kwargs['indent'] = 2
+    Path(file_path).write_text(json.dumps(preferences, ensure_ascii=False, **kwargs))
+
+
 def update_nested_dict(source_dict, update_dict):
     """
     Updates the nested dictionary `source_dict` with the values from `update_dict`.
@@ -21,40 +52,6 @@ def update_nested_dict(source_dict, update_dict):
         else:
             source_dict[key] = value
     return source_dict
-
-
-def write_preferences(file_path, preferences, indent=None):
-    """Write preferences to file
-
-    Arguments:
-        file_path (str or Path): The path to the file to write.
-        preferences (dict): The dictionary of preferences to write.
-        indent (int, optional): The number of spaces to use for indentation. Defaults to None.
-    """
-    file_path = Path(file_path)
-    kwargs = {}
-    if indent is not None:
-        kwargs['indent'] = indent
-
-    file_path.write_text(json.dumps(preferences, ensure_ascii=False, **kwargs))
-
-
-def load_preferences_from_file(file_path):
-    """
-    Loads preferences from a file at the specified file path.
-
-    Args:
-    file_path (str or pathlib.Path): The file path of the preferences file.
-
-    Returns:
-    dict: A dictionary containing the preferences, or an empty dictionary if the file was not found.
-    """
-    file_path = Path(file_path)
-    try:
-        with open(file_path, 'r') as file:
-            return json.load(file)
-    except FileNotFoundError:
-        return {}
 
 
 def serialize_config(confs):
@@ -101,10 +98,10 @@ def update_preferences(preferences_file, config_file):
         config_file (str or Path): The path to the default preferences file.
     """
 
-    preferences = load_preferences_from_file(preferences_file)
+    preferences = preferences_read(preferences_file)
     default_preferences = load_config(config_file)
     preferences = update_nested_dict(preferences, default_preferences)
-    write_preferences(preferences_file, preferences)
+    preferences_write(preferences_file, preferences)
 
 
 if __name__ == '__main__':
