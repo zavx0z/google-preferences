@@ -1,0 +1,14 @@
+{
+  "browser": {
+    "has_seen_welcome_page": true
+  },
+  "devtools": {
+    "preferences": {
+      "currentDockState": "\"undocked\""
+    },
+    "synced_preferences_sync_disabled": {
+      "sidebarPosition": "\"bottom\"",
+      "uiTheme": "\"light\""
+    }
+  }
+}
