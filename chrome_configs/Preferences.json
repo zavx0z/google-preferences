@@ -8,11 +8,14 @@
     "shortcuts_arch": "",
     "shortcuts_version": 0
   },
+  "autocomplete": {
+    "retention_policy_last_version": 110
+  },
   "autofill": {
     "orphan_rows_removed": true
   },
   "browser": {
-    "has_seen_welcome_page": false
+    "has_seen_welcome_page": true
   },
   "commerce_daily_metrics_last_update_time": "13320403897973469",
   "countryid_at_install": -1,
@@ -26,6 +29,7 @@
       "uiTheme": "\"light\""
     }
   },
+  "dips_timer_last_update": "13320405036895081",
   "domain_diversity": {
     "last_reporting_timestamp": "13320403898065618"
   },
@@ -100,7 +104,121 @@
       },
       "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
         "ack_external": true,
-        "lastpingday": "13320403200289104"
+        "active_permissions": {
+          "api": [
+            "alarms",
+            "storage",
+            "unlimitedStorage"
+          ],
+          "explicit_host": [
+            "https://docs.google.com/*",
+            "https://drive.google.com/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 137,
+        "events": [
+          "alarms.onAlarm",
+          "runtime.onConnectExternal"
+        ],
+        "first_install_time": "13320405039067988",
+        "from_webstore": true,
+        "granted_permissions": {
+          "api": [
+            "alarms",
+            "storage",
+            "unlimitedStorage"
+          ],
+          "explicit_host": [
+            "https://docs.google.com/*",
+            "https://drive.google.com/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13320405039067988",
+        "lastpingday": "13320403200289104",
+        "location": 1,
+        "manifest": {
+          "author": {
+            "email": "docs-hosted-app-own@google.com"
+          },
+          "background": {
+            "persistent": false,
+            "scripts": [
+              "eventpage_bin_prod.js"
+            ]
+          },
+          "content_capabilities": {
+            "matches": [
+              "https://docs.google.com/*",
+              "https://drive.google.com/*",
+              "https://drive-daily-0.corp.google.com/*",
+              "https://drive-daily-1.corp.google.com/*",
+              "https://drive-daily-2.corp.google.com/*",
+              "https://drive-daily-3.corp.google.com/*",
+              "https://drive-daily-4.corp.google.com/*",
+              "https://drive-daily-5.corp.google.com/*",
+              "https://drive-daily-6.corp.google.com/*"
+            ],
+            "permissions": [
+              "clipboardRead",
+              "clipboardWrite",
+              "unlimitedStorage"
+            ]
+          },
+          "content_security_policy": "script-src 'self'; object-src 'self'",
+          "current_locale": "en_US",
+          "default_locale": "en_US",
+          "description": "Edit, create, and view your documents, spreadsheets, and presentations — all without internet access.",
+          "externally_connectable": {
+            "matches": [
+              "https://docs.google.com/*",
+              "https://drive.google.com/*",
+              "https://drive-daily-0.corp.google.com/*",
+              "https://drive-daily-1.corp.google.com/*",
+              "https://drive-daily-2.corp.google.com/*",
+              "https://drive-daily-3.corp.google.com/*",
+              "https://drive-daily-4.corp.google.com/*",
+              "https://drive-daily-5.corp.google.com/*",
+              "https://drive-daily-6.corp.google.com/*"
+            ]
+          },
+          "icons": {
+            "128": "128.png"
+          },
+          "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnF7RGLAxIon0/XeNZ4MLdP3DMkoORzEAKVg0sb89JpA/W2osTHr91Wqwdc9lW0mFcSpCYS9Y3e7cUMFo/M2ETASIuZncMiUzX2/0rrWtGQ3UuEj3KSe5PdaVZfisyJw/FebvHwirEWrhqcgzVUj9fL9YjE0G45d1zMKcc1umKvLqPyTznNuKBZ9GJREdGLRJCBmUgCkI8iwtwC+QZTUppmaD50/ksnEUXv+QkgGN07/KoNA5oAgo49Jf1XBoMv4QXtVZQlBYZl84zAsI82hb63a6Gu29U/4qMWDdI7+3Ne5TRvo6Zi3EI4M2NQNplJhik105qrz+eTLJJxvf4slrWwIDAQAB",
+          "manifest_version": 2,
+          "minimum_chrome_version": "43",
+          "name": "Google Docs Offline",
+          "permissions": [
+            "alarms",
+            "storage",
+            "unlimitedStorage",
+            "https://docs.google.com/*",
+            "https://drive.google.com/*"
+          ],
+          "storage": {
+            "managed_schema": "dasherSettingSchema.json"
+          },
+          "update_url": "https://clients2.google.com/service/update2/crx",
+          "version": "1.53.0",
+          "web_accessible_resources": [
+            "page_embed_script.js"
+          ]
+        },
+        "path": "ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.53.0_0",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "state": 1,
+        "was_installed_by_default": true,
+        "was_installed_by_oem": false,
+        "withholding_permissions": false
       },
       "mhjfbmdgcfjbbpaeojofohoefgiehjai": {
         "active_permissions": {
@@ -488,7 +606,98 @@
         "was_installed_by_oem": false
       },
       "nmmhkkegccagdldgiimedpiccmgmieda": {
-        "lastpingday": "13320403200289104"
+        "ack_external": true,
+        "active_permissions": {
+          "api": [
+            "identity",
+            "webview"
+          ],
+          "explicit_host": [
+            "https://payments.google.com/*",
+            "https://sandbox.google.com/*",
+            "https://www.google.com/*",
+            "https://www.googleapis.com/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "commands": {},
+        "content_settings": [],
+        "creation_flags": 137,
+        "events": [
+          "app.runtime.onLaunched",
+          "runtime.onConnectExternal"
+        ],
+        "first_install_time": "13320405039009785",
+        "from_webstore": true,
+        "granted_permissions": {
+          "api": [
+            "identity",
+            "webview"
+          ],
+          "explicit_host": [
+            "https://payments.google.com/*",
+            "https://sandbox.google.com/*",
+            "https://www.google.com/*",
+            "https://www.googleapis.com/*"
+          ],
+          "manifest_permissions": [],
+          "scriptable_host": []
+        },
+        "incognito_content_settings": [],
+        "incognito_preferences": {},
+        "last_update_time": "13320405039009785",
+        "lastpingday": "13320403200289104",
+        "location": 10,
+        "manifest": {
+          "app": {
+            "background": {
+              "scripts": [
+                "craw_background.js"
+              ]
+            }
+          },
+          "current_locale": "en_US",
+          "default_locale": "en",
+          "description": "Chrome Web Store Payments",
+          "display_in_launcher": false,
+          "display_in_new_tab_page": false,
+          "icons": {
+            "128": "images/icon_128.png",
+            "16": "images/icon_16.png"
+          },
+          "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrKfMnLqViEyokd1wk57FxJtW2XXpGXzIHBzv9vQI/01UsuP0IV5/lj0wx7zJ/xcibUgDeIxobvv9XD+zO1MdjMWuqJFcKuSS4Suqkje6u+pMrTSGOSHq1bmBVh0kpToN8YoJs/P/yrRd7FEtAXTaFTGxQL4C385MeXSjaQfiRiQIDAQAB",
+          "manifest_version": 2,
+          "minimum_chrome_version": "29",
+          "name": "Chrome Web Store Payments",
+          "oauth2": {
+            "auto_approve": true,
+            "client_id": "203784468217.apps.googleusercontent.com",
+            "scopes": [
+              "https://www.googleapis.com/auth/sierra",
+              "https://www.googleapis.com/auth/sierrasandbox",
+              "https://www.googleapis.com/auth/chromewebstore",
+              "https://www.googleapis.com/auth/chromewebstore.readonly"
+            ]
+          },
+          "permissions": [
+            "identity",
+            "webview",
+            "https://www.google.com/",
+            "https://www.googleapis.com/*",
+            "https://payments.google.com/payments/v4/js/integrator.js",
+            "https://sandbox.google.com/payments/v4/js/integrator.js"
+          ],
+          "update_url": "https://clients2.google.com/service/update2/crx",
+          "version": "1.0.0.6"
+        },
+        "path": "nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0",
+        "preferences": {},
+        "regular_only_preferences": {},
+        "running": true,
+        "state": 1,
+        "was_installed_by_default": true,
+        "was_installed_by_oem": false
       }
     }
   },
@@ -516,7 +725,10 @@
     }
   },
   "media": {
-    "device_id_salt": "CCE3535170B2E913BFC05E0D320FEA93"
+    "device_id_salt": "CCE3535170B2E913BFC05E0D320FEA93",
+    "engagement": {
+      "schema_version": 5
+    }
   },
   "media_router": {
     "receiver_id_hash_token": "RZobkIQXHs5QHjtwre92VGw02OlRQ2twGgFXpLAYLwe1OgwTY0RJDSvkInr2K3ng5/satoGnD5twXUhnCCQw8Q=="
@@ -525,6 +737,9 @@
     "num_personal_suggestions": 1
   },
   "optimization_guide": {
+    "hintsfetcher": {
+      "hosts_successfully_fetched": {}
+    },
     "previously_registered_optimization_types": {
       "ABOUT_THIS_SITE": true,
       "HISTORY_CLUSTERS": true
@@ -636,11 +851,11 @@
       "extensions": {
         "settings": {
           "ahfgeienlihckogmohjhadlkjgocpleb": "9E932587476B9D6AB4B5E6855E6083A8735F98ACF1A0844E1613416A479B7315",
-          "ghbmnnjooekpmoecnnnilnnbdlolhkhi": "4A46300E5D0BD36565E3C74DBD6BC1AED04B60786E1A329E9AE126548B26F520",
+          "ghbmnnjooekpmoecnnnilnnbdlolhkhi": "1B1551AF2C795DA6E0D68F6709A6A97D1FB036A9821436071B6157CE2C2B14DB",
           "mhjfbmdgcfjbbpaeojofohoefgiehjai": "73EFD09CFE7F2F4CEB37D0DFC1C03AF3D62C52027FC5368125CC307D8197E369",
           "neajdppkdcdipfabeoofebfddakdcjhd": "89BD7B16867D7B2D73FF5ADDC3C1B09C5046DA2385257BF372FDA036A6327E75",
           "nkeimhogjdpnpccoofpliimaahmaaome": "B67FA27EE1302F1AEE5076A8742C6390C5BF803CD36E5470029BA74512E542A9",
-          "nmmhkkegccagdldgiimedpiccmgmieda": "5ED4C441846E80ADBA59176CA94B0895617E07280D6BC2BDBA2AFA2447DDED72"
+          "nmmhkkegccagdldgiimedpiccmgmieda": "903E63D0324AF24354CB5DC95459A4BB73FB870857CEF42881834FE15A34EC1D"
         }
       },
       "google": {
@@ -696,5 +911,53 @@
   "translate_site_blocklist_with_time": {},
   "unified_consent": {
     "migration_state": 10
+  },
+  "web_apps": {
+    "did_migrate_default_chrome_apps": [
+      "MigrateDefaultChromeAppToWebAppsGSuite",
+      "MigrateDefaultChromeAppToWebAppsNonGSuite"
+    ],
+    "extension_ids": {
+      "https://docs.google.com/document/installwebapp?usp=chrome_default": {
+        "extension_id": "mpnpojknpmmopombnjdcgaaiekajbnjb",
+        "install_source": 1,
+        "is_placeholder": false
+      },
+      "https://docs.google.com/presentation/installwebapp?usp=chrome_default": {
+        "extension_id": "kefjledonklijopmnomlcbpllchaibag",
+        "install_source": 1,
+        "is_placeholder": false
+      },
+      "https://docs.google.com/spreadsheets/installwebapp?usp=chrome_default": {
+        "extension_id": "fhihpiojkbmbpdjeoajapmgkhlnakfjf",
+        "install_source": 1,
+        "is_placeholder": false
+      },
+      "https://drive.google.com/drive/installwebapp?usp=chrome_default": {
+        "extension_id": "aghbiahbpaijignceidepookljebhfak",
+        "install_source": 1,
+        "is_placeholder": false
+      },
+      "https://mail.google.com/mail/installwebapp?usp=chrome_default": {
+        "extension_id": "fmgjjmmmlfnkbppncabfkddbjimcfncm",
+        "install_source": 1,
+        "is_placeholder": false
+      },
+      "https://www.youtube.com/s/notifications/manifest/cr_install.html": {
+        "extension_id": "agimnkijcaahngcdmfeangaknmldooml",
+        "install_source": 1,
+        "is_placeholder": false
+      }
+    },
+    "isolation_state": {},
+    "last_preinstall_synchronize_version": "110",
+    "migrated_default_apps": [
+      "aohghmighlieiainnegkcijnfilokake",
+      "aapocclcgogkmnckokdopfmhonfmgoek",
+      "felcaaldnbdncclmgdcncolpebgiejap",
+      "apdfllckaahabafndbhieahigkjlhalf",
+      "pjkljhegncpnkpknbcohdijeoejaedia",
+      "blpcfgokakmgnkcojhhkbfbldkacnbeo"
+    ]
   }
 }

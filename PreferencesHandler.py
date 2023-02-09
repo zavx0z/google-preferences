@@ -101,7 +101,7 @@ def update_preferences(preferences_file, config_file):
     preferences = preferences_read(preferences_file)
     default_preferences = load_config(config_file)
     preferences = update_nested_dict(preferences, default_preferences)
-    preferences_write(preferences_file, preferences)
+    preferences_write(preferences, preferences_file)
 
 
 if __name__ == '__main__':
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '-c', '--config',
         type=str, required=False, help='Configuration in config.yml',
-        default=Path(__file__).parent / 'default_preferences.yml'
+        default=Path(__file__).parent / 'config.yml'
     )
     parser.add_argument(
         '-u', '--user-data-dir',
