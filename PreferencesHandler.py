@@ -101,7 +101,7 @@ def update_preferences(preferences_file, config_file):
     preferences = preferences_read(preferences_file)
     default_preferences = load_config(config_file)
     preferences = update_nested_dict(preferences, default_preferences)
-    preferences_write(preferences_file, preferences)
+    preferences_write(preferences, preferences_file)
 
 
 if __name__ == '__main__':
