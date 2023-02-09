@@ -109,8 +109,10 @@ def update_preferences(user_data_dir, config_file):
     preferences_dir.mkdir(parents=True, exist_ok=True)
     preferences_file = preferences_dir / "Preferences"
 
+    conf_file = Path(config_file).resolve()
+
     preferences = preferences_read(preferences_file)
-    default_preferences = load_config(config_file)
+    default_preferences = load_config(conf_file)
     preferences = update_nested_dict(preferences, default_preferences)
     preferences_write(preferences, preferences_file)
 
@@ -129,12 +131,10 @@ if __name__ == '__main__':
     parser.add_argument(
         '-u', '--user-data-dir',
         type=str, required=False,
-        help='abspath google-chrome --user-data-dir',
-        default=Path(os.environ.get('HOME')).resolve() / '.config/google-chrome/Default/Preferences'
+        help='path google-chrome --user-data-dir',
+        default=Path(os.environ.get('HOME')).resolve() / '.config/google-chrome'
     )
     # Parse the arguments
     args = parser.parse_args()
-    # Resolve the config file path
-    conf_file = Path(args.config).resolve()
     # Call the update_preferences function
-    update_preferences(args.user_data_dir, conf_file)
+    update_preferences(args.user_data_dir, args.config)
