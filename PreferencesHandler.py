@@ -54,13 +54,12 @@ def update_nested_dict(source_dict, update_dict):
     return source_dict
 
 
-def serialize_config(confs, jsonify=False, level=0):
+def serialize_config(confs, level=0):
     """
-    Serializes values a configuration google-chrome.
+    Serializes values of a configuration for Google Chrome.
 
     Args:
         confs (dict): The dictionary to be serialized.
-        jsonify (bool): wrap as a string
     Returns:
         dict: The serialized dictionary.
     """
@@ -69,10 +68,10 @@ def serialize_config(confs, jsonify=False, level=0):
         if key == 'devtools':
             if type(value) == dict:
                 level += 1
-                serialized_preferences[key] = serialize_config(value, jsonify=True, level=level)
-        elif jsonify and level == 1 and type(value) == dict:
-            serialized_preferences[key] = serialize_config(value, jsonify=True, level=level + 1)
-        elif jsonify and level == 2:
+                serialized_preferences[key] = serialize_config(value, level=level)
+        elif level == 1 and type(value) == dict:
+            serialized_preferences[key] = serialize_config(value, level=level + 1)
+        elif level == 2:
             serialized_preferences[key] = json.dumps(value)
         else:
             if type(value) == dict:
