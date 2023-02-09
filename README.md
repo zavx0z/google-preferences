@@ -26,12 +26,12 @@ pip install -r requirements.txt
 
 To use the library, simply run it commandline program with the following arguments:
 
-`--user-data-dir` - the path to the user data directory of Google Chrome, where the Preferences file is located.
-
 `--config`- the path to the YAML file with the configuration. The default file is config.yml.
 
+`--user-data-dir` - google-chrome --user-data-dir, where the `Preferences` file is located in nested directory `Default`.
+
 ```shell
-python PreferencesHandler.py --config=config.yml --user-data-dir=/home/$USER/.config/google-chrome/Default/Preferences
+python PreferencesHandler.py --config=config.yml --user-data-dir=/home/$USER/.config/google-chrome
 ```
 
 ## License
@@ -39,5 +39,6 @@ python PreferencesHandler.py --config=config.yml --user-data-dir=/home/$USER/.co
 This library is licensed under the MIT License
 
 ## Author
+
 The library was created by zavx0z and is maintained by chat GPT, a language model created by OpenAI.
 The library is available on [Github](https://github.com/zavx0z/google-preferences.git)
