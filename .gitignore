@@ -2,3 +2,4 @@
 venv
 tmp
 .pytest_cache
+user-data-dir

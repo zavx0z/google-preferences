@@ -97,14 +97,17 @@ def load_config(file_path):
     return serialize_config(preferences)
 
 
-def update_preferences(preferences_file, config_file):
+def update_preferences(user_data_dir, config_file):
     """
     Updates preferences file with the default preferences.
 
     Args:
-        preferences_file (str or Path): The path to the current preferences file.
+        user_data_dir (str or Path): The path to the google-chrome --user-data-dir.
         config_file (str or Path): The path to the default preferences file.
     """
+    preferences_dir = Path(user_data_dir).resolve() / 'Default'
+    preferences_dir.mkdir(parents=True, exist_ok=True)
+    preferences_file = preferences_dir / "Preferences"
 
     preferences = preferences_read(preferences_file)
     default_preferences = load_config(config_file)
