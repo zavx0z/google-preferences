@@ -1,5 +1,6 @@
 # default_preferences.yml
 browser:
+  custom_chrome_frame: false
   app_window_placement:
     DevToolsApp:
       always_on_top: false

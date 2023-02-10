@@ -1,12 +1,9 @@
 {
-  "NewTabPage": {
-    "PrevNavigationTime": "13320427306776978"
-  },
-  "account_tracker_service_last_update": "13320424319421793",
+  "account_tracker_service_last_update": "13320484905691594",
   "alternate_error_pages": {
     "backup": true
   },
-  "announcement_notification_service_first_run_time": "13320424319338012",
+  "announcement_notification_service_first_run_time": "13320484905578880",
   "apps": {
     "shortcuts_arch": "",
     "shortcuts_version": 0
@@ -18,6 +15,19 @@
     "orphan_rows_removed": true
   },
   "browser": {
+    "custom_chrome_frame": false,
+    "has_seen_welcome_page": true,
+    "window_placement": {
+      "bottom": 1054,
+      "left": 0,
+      "maximized": false,
+      "right": 1400,
+      "top": 0,
+      "work_area_bottom": 1054,
+      "work_area_left": 0,
+      "work_area_right": 1920,
+      "work_area_top": 0
+    },
     "app_window_placement": {
       "DevToolsApp": {
         "always_on_top": false,
@@ -31,45 +41,14 @@
         "work_area_right": 1920,
         "work_area_top": 0
       }
-    },
-    "has_seen_welcome_page": true,
-    "window_placement": {
-      "bottom": 1054,
-      "left": 0,
-      "maximized": false,
-      "right": 1400,
-      "top": 0,
-      "work_area_bottom": 1054,
-      "work_area_left": 0,
-      "work_area_right": 1920,
-      "work_area_top": 0
     }
   },
-  "commerce_daily_metrics_last_update_time": "13320424319361602",
-  "countryid_at_install": -1,
+  "commerce_daily_metrics_last_update_time": "13320484905677340",
+  "countryid_at_install": 21843,
   "default_apps_install_state": 3,
-  "devtools": {
-    "adb_key": "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCaltXgwNYDq3inSWo7c6zJOCDbeSdpX1/0FoiY7+fG1xYQ343V7XiY4mCEYpZRksFz+a3nHsblv+uTFcOMfVz3JeZrTlsJoCEE+ZE6Z9xHU9X/U2CwruxqiYzsHfp56ACBOkJi3ozQZZOdEZbpubSay8sur29DasTrrAX/W2UbPIEPAY91QAqqXJaPpP/iKUIv2xFvIOE2kQvb3/xUsK9hlb6Io8+7DICIIDVd3QD9BLo0KyAJnpGjDbzFkwwlbbKQ5ZEx+T2qYtCKAbA4gNNsPWBoIos4KuvMPAPOlxVx3g58rdFGiexco/2y6tUBvnahZuH+P+mT9E9Tt8UYDViJAgMBAAECgf85EHTjAkv+Ds368p7EU2702ENIwPBLdWl2MNs7mVN1kvASSnORBJf/15DJTZsvgXzn0sLfDf1d0fqj0OTed2hZ0yO7eLEiXHnT3Ew/wxcNPWVBWwXWMrwSl7PtdSOA3KNTEK5w0LYqN1TGJjgPDv4cJh5anWf0+vS2CkoseRBZfOjOae9g/d8Pu4TXMWVpuW3Ii8YOhEqQkI94ObjTHqmOmI4Ad60MaGQ+Xji0W9CjKfDyCoCbTb5Ekzf9cY1o6Q+DX2YmsiVl5dJCHB91SJqBh+jBTFP+B+JBHDaJWES205e0RizqPwU/tkJJvvNYzjyJ4ZAbdRu/JdHfQ1hyYGkCgYEA16Dxl2TXL6obubkZKxXSgG2eye19M+uHxYEs7HeatxnV5+QtetpvsTlrdwGgYaiaPq5fh6ty18yXPRrZBuO/+Y6NBYCnQ1vBXkRmHeVs+cN+I2VXSiCTN34w4GFjgqYok7U4/aHx3mIUd2fSQmNo12syOLLfH+R6QETLgaJT9m0CgYEAt4hG2XjngBsP4g7cdbJG7m+t5w8TKFTobYqv1Xv9n8JPHM++/iV3C9mEE388kcurSRwxUuNv24GfK4MBsazI5I9k+VeqkcGk6mZNVTAdKiT/ISVy/JSWr3gMlM6Rj+1QanEhLIcB4UszZckNFxub1HWMbbpkRGRJHedq/yqgCQ0CgYEAw11MxrBUzxi+ugzcos7IxBeN0MJdt9bkUqvw+eZ7xP2hctKn6jFTFS1DErXki9bouXXfk9pg2OjC9lgG3lknLIJdfujLoxnVHwW1x8yAaeMXvBYrejv9Zj/tJL7YHB1TklCVbCd4LtaKWI02UXQkH1k+TWSzCABIS0aJY9ChZhkCgYAwf3xpXz+dZIlP7SlomJGR1EUZ96vSTo2U1L8eJMOigdAyBturgO7yXKpAFLFGvZEnoqGOC7e1Q41yDA5YixYS/6lpEjdqiMcxgZMR3cL3LguVELZP9FvVRl3cvLFOXSGQ3xArGgnvJNYSIYyp/IuzGtTe8hAo2m9PzaVChFsByQKBgQCEAVXoOtkddZ/Zf7qrWwamnczFAZTnxnQpKvLocIIBJ7I+K3mBcnIDYQTb+JYcqqdYFcmeWCgxFd8gsvAYxMfgkqnRljLvos3ShTZelWAyuVOLAXoRiugGj7v05CLRgz9mk9V5RxG+4eQknf4qB2pEsGUuS5bLZ+uhHc9oxqrVUQ==",
-    "preferences": {
-      "Inspector.drawerSplitViewState": "{\"horizontal\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
-      "InspectorView.splitViewState": "{\"horizontal\":{\"size\":0}}",
-      "Styles-pane-sidebar-tabOrder": "{\"Styles\":10,\"Computed\":20}",
-      "closeableTabs": "{\"security\":true,\"chrome_recorder\":true,\"performance_insights\":true}",
-      "currentDockState": "\"undocked\"",
-      "elements.styles.sidebar.width": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
-      "inspectorVersion": "31",
-      "releaseNoteVersionSeen": "52"
-    },
-    "synced_preferences_sync_disabled": {
-      "adornerSettings": "[{\"adorner\":\"grid\",\"isEnabled\":true},{\"adorner\":\"flex\",\"isEnabled\":true},{\"adorner\":\"ad\",\"isEnabled\":true},{\"adorner\":\"scroll-snap\",\"isEnabled\":true},{\"adorner\":\"container\",\"isEnabled\":true},{\"adorner\":\"slot\",\"isEnabled\":true},{\"adorner\":\"top-layer\",\"isEnabled\":true},{\"adorner\":\"reveal\",\"isEnabled\":true}]",
-      "colorFormat": "\"original\"",
-      "sidebarPosition": "\"bottom\"",
-      "uiTheme": "\"light\""
-    }
-  },
-  "dips_timer_last_update": "13320426458945212",
+  "dips_timer_last_update": "13320484912251595",
   "domain_diversity": {
-    "last_reporting_timestamp": "13320424319436791"
+    "last_reporting_timestamp": "13320484905691502"
   },
   "extensions": {
     "alerts": {
@@ -98,11 +77,11 @@
         "content_settings": [],
         "creation_flags": 1,
         "events": [],
-        "first_install_time": "13320424319339914",
+        "first_install_time": "13320484905579988",
         "from_webstore": false,
         "incognito_content_settings": [],
         "incognito_preferences": {},
-        "last_update_time": "13320424319339914",
+        "last_update_time": "13320484905579988",
         "location": 5,
         "manifest": {
           "app": {
@@ -142,7 +121,6 @@
       },
       "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
         "ack_external": true,
-        "active_bit": false,
         "active_permissions": {
           "api": [
             "alarms",
@@ -156,7 +134,6 @@
           "manifest_permissions": [],
           "scriptable_host": []
         },
-        "allowlist": 1,
         "commands": {},
         "content_settings": [],
         "creation_flags": 137,
@@ -164,7 +141,7 @@
           "alarms.onAlarm",
           "runtime.onConnectExternal"
         ],
-        "first_install_time": "13320426461262551",
+        "first_install_time": "13320484915060930",
         "from_webstore": true,
         "granted_permissions": {
           "api": [
@@ -181,9 +158,9 @@
         },
         "incognito_content_settings": [],
         "incognito_preferences": {},
-        "last_update_time": "13320426461262551",
-        "lastpingday": "13320403200597120",
-        "location": 6,
+        "last_update_time": "13320484915060930",
+        "lastpingday": "13320403200864931",
+        "location": 1,
         "manifest": {
           "author": {
             "email": "docs-hosted-app-own@google.com"
@@ -281,11 +258,11 @@
         "content_settings": [],
         "creation_flags": 1,
         "events": [],
-        "first_install_time": "13320424319340604",
+        "first_install_time": "13320484905580439",
         "from_webstore": false,
         "incognito_content_settings": [],
         "incognito_preferences": {},
-        "last_update_time": "13320424319340604",
+        "last_update_time": "13320484905580439",
         "location": 5,
         "manifest": {
           "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: chrome://resources chrome://webui-test; object-src * blob: externalfile: file: filesystem: data:",
@@ -342,11 +319,11 @@
           "ttsEngine.onSpeak",
           "ttsEngine.onStop"
         ],
-        "first_install_time": "13320424319341655",
+        "first_install_time": "13320484905581104",
         "from_webstore": false,
         "incognito_content_settings": [],
         "incognito_preferences": {},
-        "last_update_time": "13320424319341655",
+        "last_update_time": "13320484905581104",
         "location": 5,
         "manifest": {
           "background": {
@@ -607,11 +584,11 @@
         "events": [
           "runtime.onConnectExternal"
         ],
-        "first_install_time": "13320424319341119",
+        "first_install_time": "13320484905580750",
         "from_webstore": false,
         "incognito_content_settings": [],
         "incognito_preferences": {},
-        "last_update_time": "13320424319341119",
+        "last_update_time": "13320484905580750",
         "location": 5,
         "manifest": {
           "background": {
@@ -647,7 +624,6 @@
       },
       "nmmhkkegccagdldgiimedpiccmgmieda": {
         "ack_external": true,
-        "active_bit": false,
         "active_permissions": {
           "api": [
             "identity",
@@ -662,7 +638,6 @@
           "manifest_permissions": [],
           "scriptable_host": []
         },
-        "allowlist": 1,
         "commands": {},
         "content_settings": [],
         "creation_flags": 137,
@@ -670,7 +645,7 @@
           "app.runtime.onLaunched",
           "runtime.onConnectExternal"
         ],
-        "first_install_time": "13320426461192555",
+        "first_install_time": "13320484915017264",
         "from_webstore": true,
         "granted_permissions": {
           "api": [
@@ -688,8 +663,8 @@
         },
         "incognito_content_settings": [],
         "incognito_preferences": {},
-        "last_update_time": "13320426461192555",
-        "lastpingday": "13320403200597120",
+        "last_update_time": "13320484915017264",
+        "lastpingday": "13320403200864931",
         "location": 10,
         "manifest": {
           "app": {
@@ -741,10 +716,13 @@
         "was_installed_by_default": true,
         "was_installed_by_oem": false
       }
+    },
+    "theme": {
+      "system_theme": 1
     }
   },
   "gaia_cookie": {
-    "changed_time": 1675950719.581329,
+    "changed_time": 1676011305.968681,
     "hash": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "last_list_accounts_data": "[\"gaia.l.a.r\",[]]"
   },
@@ -754,7 +732,7 @@
   "google": {
     "services": {
       "consented_to_sync": false,
-      "signin_scoped_device_id": "391be32a-41ed-41e7-92d5-6c045d7e4798"
+      "signin_scoped_device_id": "1d99e2ac-b619-4116-b0dc-d61530b3772f"
     }
   },
   "intl": {
@@ -766,29 +744,26 @@
       "8181035976": {}
     }
   },
-  "language_model_counters": {
-    "ru": 3
-  },
   "media": {
-    "device_id_salt": "AA532AB07157F40E35C1B5BD1E664C51",
+    "device_id_salt": "DBA55010EC700559649B228FCE53B9A9",
     "engagement": {
       "schema_version": 5
     }
   },
   "media_router": {
-    "receiver_id_hash_token": "z51cTefzT3CfMTkuRvFKm6WUhHM9u069vi6eSf9Hqro3rgzcGZOTS/bT6A6+dxsvopWTH2fIP+zfM2rrQBmjtA=="
+    "receiver_id_hash_token": "mGuflFweThmexRIuVvxdXE+YeAZhFhkC+xKl2dkxohc4ipbMads174JXHN+RSFaRVIatBhbhkdlk6Jxw7h13/w=="
   },
   "ntp": {
-    "num_personal_suggestions": 2
+    "num_personal_suggestions": 1
   },
   "optimization_guide": {
     "hintsfetcher": {
       "hosts_successfully_fetched": {},
-      "last_fetch_attempt": "13320427309867453"
+      "last_fetch_attempt": "13320484969118554"
     },
     "predictionmodelfetcher": {
-      "last_fetch_attempt": "13320427319905399",
-      "last_fetch_success": "13320427320032374"
+      "last_fetch_attempt": "13320484924969682",
+      "last_fetch_success": "13320484925115948"
     },
     "previously_registered_optimization_types": {
       "ABOUT_THIS_SITE": true,
@@ -796,7 +771,6 @@
     },
     "store_file_paths_to_delete": {}
   },
-  "pinned_tabs": [],
   "plugins": {
     "plugins_list": []
   },
@@ -844,18 +818,7 @@
         "javascript_jit": {},
         "legacy_cookie_access": {},
         "local_fonts": {},
-        "media_engagement": {
-          "https://www.google.com:443,*": {
-            "expiration": "13328203123561000",
-            "last_modified": "13320427123561006",
-            "setting": {
-              "hasHighScore": false,
-              "lastMediaPlaybackTime": 0.0,
-              "mediaPlaybacks": 0,
-              "visits": 3
-            }
-          }
-        },
+        "media_engagement": {},
         "media_stream_camera": {},
         "media_stream_mic": {},
         "midi_sysex": {},
@@ -877,17 +840,7 @@
         "sensors": {},
         "serial_chooser_data": {},
         "serial_guard": {},
-        "site_engagement": {
-          "https://www.google.com:443,*": {
-            "last_modified": "13320427082907223",
-            "setting": {
-              "lastEngagementTime": 1.33204270829072e+16,
-              "lastShortcutLaunchTime": 0.0,
-              "pointsAddedToday": 6.6,
-              "rawScore": 6.6
-            }
-          }
-        },
+        "site_engagement": {},
         "sound": {},
         "ssl_cert_decisions": {},
         "storage_access": {},
@@ -903,11 +856,10 @@
       "pref_version": 1
     },
     "created_by_version": "110.0.5481.77",
-    "creation_time": "13320424316117577",
-    "exit_type": "Normal",
-    "last_engagement_time": "13320427082907200",
-    "last_time_obsolete_http_credentials_removed": 1675950779.330197,
-    "last_time_password_store_metrics_reported": 1675950749.329407,
+    "creation_time": "13320484905553298",
+    "exit_type": "Crashed",
+    "last_time_obsolete_http_credentials_removed": 1676011365.570474,
+    "last_time_password_store_metrics_reported": 1676011335.569445,
     "managed_user_id": "",
     "name": "Person 1",
     "password_account_storage_settings": {},
@@ -923,12 +875,12 @@
       },
       "extensions": {
         "settings": {
-          "ahfgeienlihckogmohjhadlkjgocpleb": "AF52A8BA65A35E5A10E0AF33F06902B4C49396BA9CA065BA52A62B7B72F1F6AB",
-          "ghbmnnjooekpmoecnnnilnnbdlolhkhi": "3AF40E099352396AFC0DB7357678EAF1A2D090A729BDACDD48BFD76E6102042B",
-          "mhjfbmdgcfjbbpaeojofohoefgiehjai": "584CD40C7721BA65500D7FE6BA2E185BF8C0A478A305C67D4561BBCD436D5DAF",
-          "neajdppkdcdipfabeoofebfddakdcjhd": "0AD1239AA9E7AFDB1733DFFA19F539DABF1FEE822B2743FF7EE36D8F5663AB78",
-          "nkeimhogjdpnpccoofpliimaahmaaome": "65F55DDCD49CF944A3D641FF60E8C24A2C1343E7C3A504CA0F2AAA6D7BD52641",
-          "nmmhkkegccagdldgiimedpiccmgmieda": "A9A3566C75C5656904EF610F6E23A9FFBCE9AB5C05B864DA9239B2DB133153E1"
+          "ahfgeienlihckogmohjhadlkjgocpleb": "C206E9C6B6D40A00F8A9E0612C9716814683161B686656B0C5DE469ABEF83EB2",
+          "ghbmnnjooekpmoecnnnilnnbdlolhkhi": "4E9E20354CBEE104897C006652A7F64BB755200EC7772894033135171D08DD6B",
+          "mhjfbmdgcfjbbpaeojofohoefgiehjai": "7BEEC7E59E8525560FCA061008AF5B661E53349CB11AC1BB7D404E057910BC3E",
+          "neajdppkdcdipfabeoofebfddakdcjhd": "8F1C89EE0266650AD64563F61B411DE46C6A8B20CC890A3F2BD925C08EA9B9E0",
+          "nkeimhogjdpnpccoofpliimaahmaaome": "7BD1CEA0E1D4BE3EF1FB043B1918895E26CBCB3451579707131252AC29DA891C",
+          "nmmhkkegccagdldgiimedpiccmgmieda": "2968A3A2408C417641D4AFCFE2808D2B174710AA6BA2EB7BBABB9F97DC83021B"
         }
       },
       "google": {
@@ -943,7 +895,7 @@
       "media": {
         "storage_id_salt": "C29149AE129B959FDEB0CA9E54B924BF0A8BAF533937C017ADFBC9AA2FC7BC0C"
       },
-      "pinned_tabs": "14F8B2B035A86C0AEA5637DFD2AA7F5BDEADD0AAFF13141260E56C9477047715",
+      "pinned_tabs": "33059F0A9D5AD996AA6A3DDBFC05B6B58E67DA878AEB3497F593EAE6D19EAC66",
       "prefs": {
         "preference_reset_time": "7B22235E8A603BE387D81441C8C88F0C4E591567147FA05BE235C96189AC4490"
       },
@@ -959,67 +911,20 @@
   },
   "safebrowsing": {
     "event_timestamps": {},
-    "metrics_last_log_time": "13320424319"
+    "metrics_last_log_time": "13320484905"
   },
   "segmentation_platform": {
-    "last_db_compaction_time": "13320287999000000"
+    "last_db_compaction_time": "13320374399000000"
   },
   "sessions": {
     "event_log": [
       {
         "crashed": false,
-        "time": "13320424319337657",
+        "time": "13320484905578646",
         "type": 0
-      },
-      {
-        "did_schedule_command": true,
-        "first_session_service": true,
-        "tab_count": 2,
-        "time": "13320426769269600",
-        "type": 2,
-        "window_count": 2
-      },
-      {
-        "crashed": false,
-        "time": "13320426908862700",
-        "type": 0
-      },
-      {
-        "did_schedule_command": true,
-        "first_session_service": true,
-        "tab_count": 2,
-        "time": "13320426983909286",
-        "type": 2,
-        "window_count": 2
-      },
-      {
-        "crashed": false,
-        "time": "13320427054875188",
-        "type": 0
-      },
-      {
-        "did_schedule_command": true,
-        "first_session_service": true,
-        "tab_count": 2,
-        "time": "13320427123559361",
-        "type": 2,
-        "window_count": 2
-      },
-      {
-        "crashed": false,
-        "time": "13320427306741902",
-        "type": 0
-      },
-      {
-        "did_schedule_command": true,
-        "first_session_service": true,
-        "tab_count": 2,
-        "time": "13320427378639387",
-        "type": 2,
-        "window_count": 2
       }
     ],
-    "session_data_status": 3
+    "session_data_status": 1
   },
   "signin": {
     "allowed": true
@@ -1030,31 +935,10 @@
     ],
     "dictionary": ""
   },
-  "translate_ignored_count_for_language": {
-    "ru": 1
-  },
   "translate_site_blacklist": [],
   "translate_site_blocklist_with_time": {},
   "unified_consent": {
     "migration_state": 10
-  },
-  "updateclientdata": {
-    "apps": {
-      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
-        "cohort": "1::",
-        "cohortname": "",
-        "dlrc": 5883,
-        "installdate": 5883,
-        "pf": "f04928ff-4b7d-439f-9cbf-675a38f7cf91"
-      },
-      "nmmhkkegccagdldgiimedpiccmgmieda": {
-        "cohort": "1::",
-        "cohortname": "",
-        "dlrc": 5883,
-        "installdate": 5883,
-        "pf": "f4c8e426-5c41-4a90-807b-7e4b3f2eb259"
-      }
-    }
   },
   "web_apps": {
     "did_migrate_default_chrome_apps": [
@@ -1104,7 +988,13 @@
       "blpcfgokakmgnkcojhhkbfbldkacnbeo"
     ]
   },
-  "zerosuggest": {
-    "cachedresults": ")]}'\n[\"\",[\"пожар астрахань татар базар\",\"футболист\",\"евровидение\",\"нефть\",\"имя\",\"xiaomi poco x5 pro 5g\",\"фк краснодар\",\"азмун\"],[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],[],{\"google:clientdata\":{\"bpc\":false,\"tlw\":false},\"google:groupsinfo\":\"CioIkk4SJQoj0J/QntCf0KPQm9Cv0KDQndCr0JUg0JfQkNCf0KDQntCh0Ks\\u003d\",\"google:suggestdetail\":[{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"a\":\"Профессиональный футбольный клуб\",\"dc\":\"#0a7546\",\"i\":\"data:image/png;base64,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\",\"q\":\"gs_ssp\\u003deJzj4tLP1TcwTaqqKq8wYPQSv9hyYZfChV0XGy5suNh4Ye-FfRe2AFkNAD0HFDg\",\"t\":\"ФК Краснодар\",\"zae\":\"/m/05bzzwx\",\"zl\":10002},{\"a\":\"Футболист\",\"dc\":\"#397f9a\",\"i\":\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEAAQAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAFBgMEBwIB/8QAMRAAAgEDAwIDBgUFAAAAAAAAAQIDAAQRBRIhMUEGUWETcYGRofAUIkJSsQcyY8Hh/8QAGgEAAgMBAQAAAAAAAAAAAAAABAUCAwYBAP/EAB8RAAEEAgMBAQAAAAAAAAAAAAEAAgMRITEEEiIFE//aAAwDAQACEQMRAD8AUreZWUc1finQAc0pQ3TKOtWY7yRnVEDMzHAA5JPlTQnCDTWtwM9a7NyrHC5J8gM1Rjez0yNTfSe3uyMmGPDCP0J6ZHfrXL+KWB2wIQo6ALhf5x8hQpmA0rhFeyrNxbzHloZFHqpFDp4lKmmDRfEsFwwt7xIgSPykDAz6nvXd/oguo2uLCWNiRkxr+o99o/0TnvUC7vtS69dJGuYRk1Sddp4oteI8bskilWHUEUNmrn5kZXuwVFHNGdCkW2aS/cjdGNsYIPUjk8eQ+poRGmaIKGb8Hp8TFLi5nC8L03EKCf8AlXTW1igyi5eXF7Pcy7Ybd2YnhU4OPcBUV5Z6jGglm068jjP6zC+D8cYp/wDCGnXVpfWq2m9baWTawmRFkYfvPGSOfdxU3iO31htZVPxNybLeFIW5ZBt7kgEcClxlyjRFi1mdvOpIG7JHlmj+k63cW5YNKTuYvn1o7N4W1DUmaJrt1gzlS2JAfc3X50k3cUmjancWk+GaMkA+Y7VNsl4UHMLcpq1uWO7gjnjAOev398iluVPSrGmzyTyCNkIidWlQ44Azg/X+KszW3kKa8QB0eUByHU/CFxQmi3h6JF8UaHNPzGl6gbj9xwPrj51ylv6Vd0+HFwhVQWBDA5xgjnP0qc8dsIXo3+gte1K/s9KSa5aHJRcu0aDIH3mh2laxFqSe3S0uEg/tzMgUg+YwTxUXiKGK6FxcSlnsYVEgjiQMzPzyM8cDzHf35F2Vg1jb/irCedFyZPZOgG4fDHyNZ9yct1aYr272ALGuQ3fyrC/GMrXPie9UIcq23gdeK1u41W1jR2JxjsRWXaxcBbyS8hMRkuJWyXUNhcds/fNdj3arlIqlZ8M26Lpu50ZZixBLDgjt9c0QaMZxUenFRp6tJIzOxYjP6hnr6VPuzWg4rKiCUch1vUs1ntPAqJVCHPlTm/hy6dd9y0Vqn+Q5Y+5Rk/PFcWuhWcEjTy+0m9nhlDjAY567R2+JzVrHd2oaaZkR2h76vrXh7Qo3Fp+ItQcSOBl4hjo3wxz26HpS1ef1IvmkIhSMRftbnIrRShjsVjY/mZmLHPnms/utEsLmza9kZbeSFSJAVOx8HyHIPu+VBT/PGXMXeN9YnzJhAGvtQ128BlbYj8kJwMVzqmkXNvfQFs7JGUJt6AeQNNWn2yyCNbdNsEfG49Se9FljGoxXph3M0EAEaKnfcGY5HX8oGBjjPrQMMbpH0BgbTSaVkbLccnSXZlGFVAQFAGKiDFamkNV2NaGMigEpeDdr/9k\\u003d\",\"q\":\"gs_ssp\\u003deJzj4tLP1TfIiE8qyCs3YPTiurDhwvYLey42X9gLAHO5C4c\",\"t\":\"Сердар Азмун\",\"zae\":\"/m/0h_bpnw\",\"zl\":10002}],\"google:suggestrelevance\":[601,600,555,554,553,552,551,550],\"google:suggestsubtypes\":[[143,362],[143,362],[143,362],[143,362],[143,362],[143,362],[143,362],[143,362]],\"google:suggesttype\":[\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"ENTITY\",\"ENTITY\"],\"google:verbatimrelevance\":851}]"
+  "devtools": {
+    "preferences": {
+      "currentDockState": "\"undocked\""
+    },
+    "synced_preferences_sync_disabled": {
+      "sidebarPosition": "\"bottom\"",
+      "uiTheme": "\"light\""
+    }
   }
 }
