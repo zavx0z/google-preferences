@@ -1,5 +1,8 @@
 {
-  "account_tracker_service_last_update": "13320484905691594",
+  "NewTabPage": {
+    "PrevNavigationTime": "13321468796386356"
+  },
+  "account_tracker_service_last_update": "13321468796406211",
   "alternate_error_pages": {
     "backup": true
   },
@@ -15,40 +18,45 @@
     "orphan_rows_removed": true
   },
   "browser": {
-    "custom_chrome_frame": false,
+    "custom_chrome_frame": true,
     "has_seen_welcome_page": true,
     "window_placement": {
-      "bottom": 1054,
-      "left": 0,
-      "maximized": false,
-      "right": 1400,
-      "top": 0,
-      "work_area_bottom": 1054,
+      "bottom": 2280,
+      "left": 1118,
+      "maximized": true,
+      "right": 2063,
+      "top": 1220,
+      "work_area_bottom": 2520,
       "work_area_left": 0,
-      "work_area_right": 1920,
-      "work_area_top": 0
-    },
-    "app_window_placement": {
-      "DevToolsApp": {
-        "always_on_top": false,
-        "bottom": 1049,
-        "left": 1399,
-        "maximized": false,
-        "right": 1919,
-        "top": 20,
-        "work_area_bottom": 1054,
-        "work_area_left": 0,
-        "work_area_right": 1920,
-        "work_area_top": 0
-      }
+      "work_area_right": 3440,
+      "work_area_top": 1080
     }
   },
-  "commerce_daily_metrics_last_update_time": "13320484905677340",
+  "commerce_daily_metrics_last_update_time": "13321468796405180",
   "countryid_at_install": 21843,
   "default_apps_install_state": 3,
-  "dips_timer_last_update": "13320484912251595",
+  "devtools": {
+    "adb_key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3WvaIfu1Qk6+BkOGqJf2Mjlb/AQJmctCHpDOA0amHYGG/ef+Br3fKEwUvqRGHxAgaOHvWAdOeJGeh6Ota179yoJswbqI8YLRPITPdHlX8pi/9gRaqxgof0cQkJG3jZUYvmCzcI4YW7bO7JyXjmpQdBYMbiPwI9pPKP9zEA1xFQIpJnGKFyj4GrVcjW2RRoLvsOmZXw00s4U9FTIzCHxnlPRyMpNlu1BiijKgPuYvhZTH+NLRShWsUdCKwmVaU+YxLWfUzG43O+hbg6/+SdO24uBeyxNqVj3wRcX/7XwIN5wHsp0YU86gM+jeF/yeTYsEMyunMkSG3q83eYumF3aMlAgMBAAECggEAI45zQpMCqF6LaV/UMy+81JYBzt++PGnFgJhaGIAQFR2etwgMgXSqkThRCCYMLTzZqWQMt7qQ9BjxM9e8VFiEWtFEZwb9VSIXtUSmDxpD6IO9yLZQ0/slmXgPRkb+PFu2WaJ0CJim9ylPclqsIVAnqt0XyK4u2fofPNhXkndoXFFMr9wmmPcMCtRZZ+tvEDdc9m3sRXg41wxQY/d063OwDVNjiUXsvAguarN1P5jGJ9aSg/eekWAMFwTAQ6rax8sBbTIN2uqoKHe8OLvLOkbhrF+ojadnRz8nvyTfPqiB41RdSA8vDXZUlImo3toVKS1O3fkwLLz84+jMzWtAsb7GgQKBgQDe5i2BSrBxpE60u4Wbppoo/i79+uzQ6tGO5tjOY7jLRpZ4nHuTvpqWdLVYTIn+QuFHX8biAeLA+SK5sNYsl0REUy5mPgbfoZdTgmCqoGc8zuBtcidt1xQfflWiHmnMezFXNDf6O2CV2FjQOga2zFJuKhVTZt+7MP0wwJBOxeDxhQKBgQDSlXjck1Cl7vDzLKhXVEzzYTSgbvTviDzDPmhI0JlwyEcvPDZyGuJ17zK+GxcatcQbEpJuXVAwVvcaOw/Cdkont1HKCbeeBRn99NpA8R/r8rLikQcJdxsTxWTbmK1oavZGIwsaCvpif8KCvdxw9CKDH3XKfTJiijF4RSlHRsvNIQKBgQC0dp95AkOAforKgNhXgLdnYQQi1TlOnA82J2h5EPvYeDnzRJ44rCT0k2EPMEi49uT1qHGZIfW4TvzyYl3ElGPM/ZufY7Ck9mtSTUh+XIe5D7VcZwPNRkkghmRGcWEvEL6N39VCXzh/mT2uuIwfC6XhU2kYsT2KjMsw4Xb0j/jjEQKBgC6AY1gSD9UUlpCcY/Ak5Xk5Fe33ko7yfrh+p3is17VYBKAho8Q+u5NfZs0kHk3/pXZ0+3DzmimSiq54LFq81FNA4AbFbo6ugbbawvdkR7BKv8XYUL1+V7Rd+o+jf2d3dzq1slXl5rSpkcJdOriWsKhT4ib8zouECLiOTTc4IvkBAoGAZ7s8zeP1jhvIr+rWSdCs+4CL+gmQnUYdYYuFjOWlvJOEsS6gSPsuvOH/6Qg3x1rKc/8kG3QXald+SdHe87TXpxx1XLqIPfIGsKEuAri3BLAb7SKpdXq84Drr2DvGi2QKv4EvH3AttPkZxKEF/8VJc5Znbr9uGlTurNj8jd30SFY=",
+    "preferences": {
+      "Inspector.drawerSplitViewState": "{\"horizontal\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+      "InspectorView.splitViewState": "{\"vertical\":{\"size\":1136}}",
+      "Styles-pane-sidebar-tabOrder": "{\"Styles\":10,\"Computed\":20}",
+      "closeableTabs": "{\"security\":true,\"chrome_recorder\":true,\"performance_insights\":true}",
+      "currentDockState": "\"right\"",
+      "elements.styles.sidebar.width": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+      "inspectorVersion": "31",
+      "releaseNoteVersionSeen": "52"
+    },
+    "synced_preferences_sync_disabled": {
+      "adornerSettings": "[{\"adorner\":\"grid\",\"isEnabled\":true},{\"adorner\":\"flex\",\"isEnabled\":true},{\"adorner\":\"ad\",\"isEnabled\":true},{\"adorner\":\"scroll-snap\",\"isEnabled\":true},{\"adorner\":\"container\",\"isEnabled\":true},{\"adorner\":\"slot\",\"isEnabled\":true},{\"adorner\":\"top-layer\",\"isEnabled\":true},{\"adorner\":\"reveal\",\"isEnabled\":true}]",
+      "colorFormat": "\"original\"",
+      "highlightNodeOnHoverInOverlay": "true",
+      "showDetailedInspectTooltip": "false"
+    }
+  },
+  "dips_timer_last_update": "13321468796381793",
   "domain_diversity": {
-    "last_reporting_timestamp": "13320484905691502"
+    "last_reporting_timestamp": "13321468796405245"
   },
   "extensions": {
     "alerts": {
@@ -121,6 +129,7 @@
       },
       "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
         "ack_external": true,
+        "active_bit": false,
         "active_permissions": {
           "api": [
             "alarms",
@@ -160,7 +169,7 @@
         "incognito_preferences": {},
         "last_update_time": "13320484915060930",
         "lastpingday": "13320403200864931",
-        "location": 1,
+        "location": 6,
         "manifest": {
           "author": {
             "email": "docs-hosted-app-own@google.com"
@@ -624,6 +633,7 @@
       },
       "nmmhkkegccagdldgiimedpiccmgmieda": {
         "ack_external": true,
+        "active_bit": false,
         "active_permissions": {
           "api": [
             "identity",
@@ -638,6 +648,7 @@
           "manifest_permissions": [],
           "scriptable_host": []
         },
+        "allowlist": 1,
         "commands": {},
         "content_settings": [],
         "creation_flags": 137,
@@ -732,7 +743,7 @@
   "google": {
     "services": {
       "consented_to_sync": false,
-      "signin_scoped_device_id": "1d99e2ac-b619-4116-b0dc-d61530b3772f"
+      "signin_scoped_device_id": "b893085e-8161-4392-8f9d-edb05e561b9e"
     }
   },
   "intl": {
@@ -743,6 +754,9 @@
       "1013309121859": {},
       "8181035976": {}
     }
+  },
+  "language_model_counters": {
+    "ru": 1
   },
   "media": {
     "device_id_salt": "DBA55010EC700559649B228FCE53B9A9",
@@ -759,18 +773,22 @@
   "optimization_guide": {
     "hintsfetcher": {
       "hosts_successfully_fetched": {},
-      "last_fetch_attempt": "13320484969118554"
+      "last_fetch_attempt": "13321468857614629"
     },
     "predictionmodelfetcher": {
-      "last_fetch_attempt": "13320484924969682",
-      "last_fetch_success": "13320484925115948"
+      "last_fetch_attempt": "13321468809533645",
+      "last_fetch_success": "13321468809649765"
     },
     "previously_registered_optimization_types": {
       "ABOUT_THIS_SITE": true,
       "HISTORY_CLUSTERS": true
     },
-    "store_file_paths_to_delete": {}
+    "store_file_paths_to_delete": {
+      "/home/zavx0z/projects/google-preferences/google-chrome/Default/optimization_guide_prediction_model_downloads/41627845-8b85-41a8-84bd-fbf002d87946": true,
+      "/home/zavx0z/projects/google-preferences/google-chrome/Default/optimization_guide_prediction_model_downloads/e7dd002d-95f7-4c14-959a-2ee27ed40b30": true
+    }
   },
+  "pinned_tabs": [],
   "plugins": {
     "plugins_list": []
   },
@@ -818,7 +836,18 @@
         "javascript_jit": {},
         "legacy_cookie_access": {},
         "local_fonts": {},
-        "media_engagement": {},
+        "media_engagement": {
+          "https://www.google.com:443,*": {
+            "expiration": "13329244892938639",
+            "last_modified": "13321468892938646",
+            "setting": {
+              "hasHighScore": false,
+              "lastMediaPlaybackTime": 0.0,
+              "mediaPlaybacks": 0,
+              "visits": 1
+            }
+          }
+        },
         "media_stream_camera": {},
         "media_stream_mic": {},
         "midi_sysex": {},
@@ -840,7 +869,17 @@
         "sensors": {},
         "serial_chooser_data": {},
         "serial_guard": {},
-        "site_engagement": {},
+        "site_engagement": {
+          "https://www.google.com:443,*": {
+            "last_modified": "13321468812584478",
+            "setting": {
+              "lastEngagementTime": 1.3321468812584466e+16,
+              "lastShortcutLaunchTime": 0.0,
+              "pointsAddedToday": 3.0,
+              "rawScore": 3.0
+            }
+          }
+        },
         "sound": {},
         "ssl_cert_decisions": {},
         "storage_access": {},
@@ -857,9 +896,10 @@
     },
     "created_by_version": "110.0.5481.77",
     "creation_time": "13320484905553298",
-    "exit_type": "Crashed",
+    "exit_type": "Normal",
+    "last_engagement_time": "13321468812584466",
     "last_time_obsolete_http_credentials_removed": 1676011365.570474,
-    "last_time_password_store_metrics_reported": 1676011335.569445,
+    "last_time_password_store_metrics_reported": 1676995226.140686,
     "managed_user_id": "",
     "name": "Person 1",
     "password_account_storage_settings": {},
@@ -876,11 +916,11 @@
       "extensions": {
         "settings": {
           "ahfgeienlihckogmohjhadlkjgocpleb": "C206E9C6B6D40A00F8A9E0612C9716814683161B686656B0C5DE469ABEF83EB2",
-          "ghbmnnjooekpmoecnnnilnnbdlolhkhi": "4E9E20354CBEE104897C006652A7F64BB755200EC7772894033135171D08DD6B",
+          "ghbmnnjooekpmoecnnnilnnbdlolhkhi": "5007B022DE00F36429F0731B9596C3C7DA38E20728CDCB50AE3F8DBA7433BC7B",
           "mhjfbmdgcfjbbpaeojofohoefgiehjai": "7BEEC7E59E8525560FCA061008AF5B661E53349CB11AC1BB7D404E057910BC3E",
           "neajdppkdcdipfabeoofebfddakdcjhd": "8F1C89EE0266650AD64563F61B411DE46C6A8B20CC890A3F2BD925C08EA9B9E0",
           "nkeimhogjdpnpccoofpliimaahmaaome": "7BD1CEA0E1D4BE3EF1FB043B1918895E26CBCB3451579707131252AC29DA891C",
-          "nmmhkkegccagdldgiimedpiccmgmieda": "2968A3A2408C417641D4AFCFE2808D2B174710AA6BA2EB7BBABB9F97DC83021B"
+          "nmmhkkegccagdldgiimedpiccmgmieda": "E8D327867BFE7CD67D79C06C1EC06B046E99EA06A7CC1ABA748F907F28958CD8"
         }
       },
       "google": {
@@ -895,7 +935,7 @@
       "media": {
         "storage_id_salt": "C29149AE129B959FDEB0CA9E54B924BF0A8BAF533937C017ADFBC9AA2FC7BC0C"
       },
-      "pinned_tabs": "33059F0A9D5AD996AA6A3DDBFC05B6B58E67DA878AEB3497F593EAE6D19EAC66",
+      "pinned_tabs": "14F8B2B035A86C0AEA5637DFD2AA7F5BDEADD0AAFF13141260E56C9477047715",
       "prefs": {
         "preference_reset_time": "7B22235E8A603BE387D81441C8C88F0C4E591567147FA05BE235C96189AC4490"
       },
@@ -911,10 +951,36 @@
   },
   "safebrowsing": {
     "event_timestamps": {},
-    "metrics_last_log_time": "13320484905"
+    "metrics_last_log_time": "13321468796"
   },
   "segmentation_platform": {
-    "last_db_compaction_time": "13320374399000000"
+    "last_db_compaction_time": "13321324799000000",
+    "segmentation_result": {
+      "cross_device_user": {
+        "in_use": false,
+        "segment_id": 0,
+        "segment_rank": 0.0,
+        "selection_time": "13321468799561507"
+      },
+      "resume_heavy_user": {
+        "in_use": false,
+        "segment_id": 0,
+        "segment_rank": 0.0,
+        "selection_time": "13321468799561632"
+      },
+      "search_user": {
+        "in_use": false,
+        "segment_id": 0,
+        "segment_rank": 0.0,
+        "selection_time": "13321468799556135"
+      },
+      "shopping_user": {
+        "in_use": false,
+        "segment_id": 0,
+        "segment_rank": 0.0,
+        "selection_time": "13321468799556207"
+      }
+    }
   },
   "sessions": {
     "event_log": [
@@ -922,9 +988,30 @@
         "crashed": false,
         "time": "13320484905578646",
         "type": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 1,
+        "time": "13320485098825694",
+        "type": 2,
+        "window_count": 1
+      },
+      {
+        "crashed": false,
+        "time": "13321468796151387",
+        "type": 0
+      },
+      {
+        "did_schedule_command": true,
+        "first_session_service": true,
+        "tab_count": 1,
+        "time": "13321468892935239",
+        "type": 2,
+        "window_count": 1
       }
     ],
-    "session_data_status": 1
+    "session_data_status": 3
   },
   "signin": {
     "allowed": true
@@ -935,10 +1022,34 @@
     ],
     "dictionary": ""
   },
+  "translate_accepted_count": {
+    "ru": 0
+  },
+  "translate_denied_count_for_language": {
+    "ru": 1
+  },
   "translate_site_blacklist": [],
   "translate_site_blocklist_with_time": {},
   "unified_consent": {
     "migration_state": 10
+  },
+  "updateclientdata": {
+    "apps": {
+      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
+        "cohort": "1::",
+        "cohortname": "",
+        "dlrc": 5895,
+        "installdate": 5895,
+        "pf": "c2366087-f197-4486-b11e-75d90504b647"
+      },
+      "nmmhkkegccagdldgiimedpiccmgmieda": {
+        "cohort": "1::",
+        "cohortname": "",
+        "dlrc": 5895,
+        "installdate": 5895,
+        "pf": "7ecaacbb-bc85-4c85-938b-045a9fe45182"
+      }
+    }
   },
   "web_apps": {
     "did_migrate_default_chrome_apps": [
@@ -988,13 +1099,7 @@
       "blpcfgokakmgnkcojhhkbfbldkacnbeo"
     ]
   },
-  "devtools": {
-    "preferences": {
-      "currentDockState": "\"undocked\""
-    },
-    "synced_preferences_sync_disabled": {
-      "sidebarPosition": "\"bottom\"",
-      "uiTheme": "\"light\""
-    }
+  "zerosuggest": {
+    "cachedresults": ")]}'\n[\"\",[\"xiaomi mi band 8\",\"астрологический прогноз\",\"лотерея мечталлион\",\"бафта 2023\",\"юрий антонов\",\"локомотив спартак\",\"сошла лавина\",\"деньги\"],[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],[],{\"google:clientdata\":{\"bpc\":false,\"tlw\":false},\"google:groupsinfo\":\"CioIkk4SJQoj0J/QntCf0KPQm9Cv0KDQndCr0JUg0JfQkNCf0KDQntCh0Ks\\u003d\",\"google:suggestdetail\":[{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002},{\"zl\":10002}],\"google:suggestrelevance\":[601,600,555,554,553,552,551,550],\"google:suggestsubtypes\":[[143,362],[143,362],[143,362],[143,362],[143,362],[143,362],[143,362],[143,362]],\"google:suggesttype\":[\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\",\"QUERY\"],\"google:verbatimrelevance\":851}]"
   }
 }
